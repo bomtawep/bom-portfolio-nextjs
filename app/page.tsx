@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import { getDocumentTheme, createTheme, NextUIProvider } from '@nextui-org/react'
-import Navigation from '../components/navigation/Navigation'
+import Navigation from '../src/components/navigation/Navigation'
 
 const lightTheme = createTheme({
   type: 'light',
